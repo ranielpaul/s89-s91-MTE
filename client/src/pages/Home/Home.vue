@@ -3,9 +3,9 @@
     <!-- Hero Header -->
     <div class="p-5 mb-4 bg-light rounded-3 shadow-sm border text-center">
       <div class="container-fluid py-2">
-        <h1 class="display-6 fw-bold text-dark mb-3">Welcome to BlogVlog</h1>
+        <h1 class="display-6 fw-bold text-dark mb-3">Welcome to Blog Bog 🌿</h1>
         <p class="col-md-8 mx-auto fs-6 text-muted mb-4">
-          A modern blog and vlog platform built on the MEVN stack. Read stories, share your technical journeys, and engage with the developer community.
+          A blog platform built on the MEVN stack. Read stories, share your technical journeys, and engage with the community.
         </p>
 
         <div class="d-flex justify-content-center gap-2" v-if="!authState.isAuthenticated">
