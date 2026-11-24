@@ -1,0 +1,73 @@
+/* Custom application styles */
+:root {
+  --highlight-color: rgb(123, 172, 49);
+  --highlight-hover: rgb(106, 148, 42);
+}
+
+.bg-highlight {
+  background-color: rgb(123, 172, 49) !important;
+  color: #ffffff !important;
+}
+
+.btn-highlight {
+  background-color: rgb(123, 172, 49) !important;
+  border-color: rgb(123, 172, 49) !important;
+  color: #ffffff !important;
+  transition: background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.btn-highlight:hover,
+.btn-highlight:focus,
+.btn-highlight:active {
+  background-color: rgb(95, 135, 36) !important;
+  border-color: rgb(95, 135, 36) !important;
+  color: #ffffff !important;
+}
+
+.btn-outline-highlight {
+  color: rgb(123, 172, 49) !important;
+  border-color: rgb(123, 172, 49) !important;
+  background-color: transparent !important;
+}
+
+.btn-outline-highlight:hover,
+.btn-outline-highlight:focus,
+.btn-outline-highlight:active {
+  background-color: rgb(123, 172, 49) !important;
+  border-color: rgb(123, 172, 49) !important;
+  color: #ffffff !important;
+}
+
+.text-highlight {
+  color: rgb(123, 172, 49) !important;
+}
+
+.border-highlight {
+  border-color: rgb(123, 172, 49) !important;
+}
+
+.nav-pills .nav-link.active,
+.nav-tabs .nav-link.active {
+  background-color: rgb(123, 172, 49) !important;
+  color: #ffffff !important;
+  border-color: rgb(123, 172, 49) !important;
+}
+
+#app {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.transition-hover {
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.transition-hover:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.08) !important;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
